@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_add_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_add_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_amd_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_amd_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_cholsol_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_cholsol_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_chol_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_chol_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_compress_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_compress_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_counts_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_counts_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_cumsum_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_cumsum_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_dfs_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_dfs_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_dmperm_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_dmperm_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_droptol_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_droptol_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_dropzeros_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_dropzeros_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_dupl_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_dupl_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_entry_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_entry_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_ereach_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_ereach_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_etree_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_etree_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_fkeep_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_fkeep_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_gaxpy_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_gaxpy_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_happly_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_happly_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_house_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_house_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_ipvec_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_ipvec_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_leaf_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_leaf_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_load_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_load_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_lsolve_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_lsolve_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_ltsolve_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_ltsolve_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_lusol_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_lusol_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_lu_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_lu_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_malloc_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_malloc_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_maxtrans_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_maxtrans_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_multiply_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_multiply_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_norm_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_norm_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_permute_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_permute_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_pinv_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_pinv_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_post_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_post_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_print_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_print_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_pvec_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_pvec_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_qrsol_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_qrsol_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_qr_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_qr_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_randperm_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_randperm_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_reach_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_reach_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_scatter_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_scatter_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_scc_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_scc_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_schol_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_schol_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_spsolve_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_spsolve_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_sqr_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_sqr_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_symperm_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_symperm_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_tdfs_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_tdfs_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_transpose_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_transpose_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_updown_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_updown_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_usolve_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_usolve_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_util_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_util_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_utsolve_di.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SuiteSparse\CXSparse\SourceWrappers\cs_utsolve_dl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\SuiteSparse\CXSparse\Include\cs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\SuiteSparse\CXSparse\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9CADB4AD-F8C5-42F5-833E-EF09859EA3E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4D949D60-9632-4046-94A0-25BF44A08312}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

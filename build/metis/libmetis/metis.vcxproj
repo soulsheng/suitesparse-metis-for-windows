@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E673585B-FFD1-4B0D-A6B8-6FE3C1BEBF0F}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>metis</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\build\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">metis.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">metisd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\build\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">metis.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">metis</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\build\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">metis.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">metis</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\build\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">metis.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">metis</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\GKlib;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\include;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;MSC;_CRT_SECURE_NO_DEPRECATE;USE_GKREGEX;NDEBUG;NDEBUG2;__thread=__declspec(thread);_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;MSC;_CRT_SECURE_NO_DEPRECATE;USE_GKREGEX;NDEBUG;NDEBUG2;__thread=__declspec(thread);_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\GKlib;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\include;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\GKlib;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\include;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\GKlib;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\include;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;MSC;_CRT_SECURE_NO_DEPRECATE;USE_GKREGEX;NDEBUG;NDEBUG2;__thread=__declspec(thread);NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;MSC;_CRT_SECURE_NO_DEPRECATE;USE_GKREGEX;NDEBUG;NDEBUG2;__thread=__declspec(thread);NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\GKlib;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\include;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\GKlib;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\include;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\GKlib;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\include;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;MSC;_CRT_SECURE_NO_DEPRECATE;USE_GKREGEX;NDEBUG;NDEBUG2;__thread=__declspec(thread);NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;MSC;_CRT_SECURE_NO_DEPRECATE;USE_GKREGEX;NDEBUG;NDEBUG2;__thread=__declspec(thread);NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\GKlib;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\include;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\GKlib;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\include;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\GKlib;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\include;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;MSC;_CRT_SECURE_NO_DEPRECATE;USE_GKREGEX;NDEBUG;NDEBUG2;__thread=__declspec(thread);NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;MSC;_CRT_SECURE_NO_DEPRECATE;USE_GKREGEX;NDEBUG;NDEBUG2;__thread=__declspec(thread);NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\GKlib;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\include;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\GKlib;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\include;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\metis\libmetis\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/file/code/sdk/suitesparse-metis-for-windows-1.3.1/metis/libmetis/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/file/code/sdk/suitesparse-metis-for-windows-1.3.1 -BD:/file/code/sdk/suitesparse-metis-for-windows-1.3.1/build --check-stamp-file D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\build\metis\libmetis\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/file/code/sdk/suitesparse-metis-for-windows-1.3.1/metis/libmetis/CMakeLists.txt;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\CMakeLists.txt;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\build\metis\libmetis\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/file/code/sdk/suitesparse-metis-for-windows-1.3.1/metis/libmetis/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/file/code/sdk/suitesparse-metis-for-windows-1.3.1 -BD:/file/code/sdk/suitesparse-metis-for-windows-1.3.1/build --check-stamp-file D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\build\metis\libmetis\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/file/code/sdk/suitesparse-metis-for-windows-1.3.1/metis/libmetis/CMakeLists.txt;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\CMakeLists.txt;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\build\metis\libmetis\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/file/code/sdk/suitesparse-metis-for-windows-1.3.1/metis/libmetis/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/file/code/sdk/suitesparse-metis-for-windows-1.3.1 -BD:/file/code/sdk/suitesparse-metis-for-windows-1.3.1/build --check-stamp-file D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\build\metis\libmetis\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/file/code/sdk/suitesparse-metis-for-windows-1.3.1/metis/libmetis/CMakeLists.txt;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\CMakeLists.txt;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\build\metis\libmetis\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/file/code/sdk/suitesparse-metis-for-windows-1.3.1/metis/libmetis/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/file/code/sdk/suitesparse-metis-for-windows-1.3.1 -BD:/file/code/sdk/suitesparse-metis-for-windows-1.3.1/build --check-stamp-file D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\build\metis\libmetis\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/file/code/sdk/suitesparse-metis-for-windows-1.3.1/metis/libmetis/CMakeLists.txt;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\CMakeLists.txt;D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\metis\libmetis\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\file\code\sdk\suitesparse-metis-for-windows-1.3.1\build\metis\libmetis\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\metis\GKlib\b64.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\blas.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\csr.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\error.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\evaluate.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\fkvkselect.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\fs.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\getopt.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\gkregex.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\graph.c" >
+      <ObjectFileName>$(IntDir)/__/GKlib/graph.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\metis\GKlib\htable.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\io.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\itemsets.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\mcore.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\memory.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\omp.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\pdb.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\pqueue.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\random.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\rw.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\seq.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\sort.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\string.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\timers.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\tokenizer.c"  />
+    <ClCompile Include="..\..\..\metis\GKlib\util.c" >
+      <ObjectFileName>$(IntDir)/__/GKlib/util.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\metis\libmetis\auxapi.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\balance.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\bucketsort.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\checkgraph.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\coarsen.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\compress.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\contig.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\debug.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\fm.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\fortran.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\frename.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\gklib.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\graph.c" >
+      <ObjectFileName>$(IntDir)/graph.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\metis\libmetis\initpart.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\kmetis.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\kwayfm.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\kwayrefine.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\mcutil.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\mesh.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\meshpart.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\minconn.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\mincover.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\mmd.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\ometis.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\options.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\parmetis.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\pmetis.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\refine.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\separator.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\sfm.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\srefine.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\stat.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\timing.c"  />
+    <ClCompile Include="..\..\..\metis\libmetis\util.c" >
+      <ObjectFileName>$(IntDir)/util.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\metis\libmetis\wspace.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/file/code/sdk/suitesparse-metis-for-windows-1.3.1/build/ZERO_CHECK.vcxproj">
+      <Project>EDEAB414-3928-4E00-B10A-98C64880F1D9</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
