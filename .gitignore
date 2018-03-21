@@ -94,3 +94,5 @@ install*
 /build/*.suo
 /build/*.suo
 /build/*.txt
+*x64*
+/build/ipch

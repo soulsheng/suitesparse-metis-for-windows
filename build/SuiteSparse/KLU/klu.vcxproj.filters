@@ -188,9 +188,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\SuiteSparse\KLU\CMakeLists.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{9CADB4AD-F8C5-42F5-833E-EF09859EA3E2}</UniqueIdentifier>
     </Filter>
