@@ -150,7 +150,7 @@
 /* ========================================================================== */
 
 /* Compile CHOLMOD, UMFPACK, and SPQR with -DBLAS64 if you have a BLAS that
- * uses 64-bit integers */
+ * uses 64-bit integers */ 
 
 #if defined (LONGBLAS) || defined (BLAS64)
 #define BLAS_INT SuiteSparse_long

@@ -6,7 +6,7 @@ The goal is using one single CMake code to build against *SuiteSparse* in standa
 
 ![logo](https://raw.githubusercontent.com/jlblancoc/suitesparse-metis-for-windows/master/docs/logo.png)
 
-1. Instructions
+1. Instructions 
 -------------------------------------------------------
 
   * (1) Install [CMake](http://www.cmake.org/).
